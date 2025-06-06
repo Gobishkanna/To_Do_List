@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('to\ do\ list\ bg.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  background: linear-gradient(135deg, #7b68ee, #5a4bd3); /* rich dark lavender gradient */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(90, 75, 211, 0.5);
+  width: 350px;
+  text-align: center;
+  border: 1px solid #4a39a1;
+  color: white;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Text shadow for soft glow */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section input, .input-section button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#taskList li {
+  background: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
